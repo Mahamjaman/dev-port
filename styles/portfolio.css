@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navtittle{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+.pricolor{
+    color: orange;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+.pribtn{
+    border-radius: 5px;
+    background: orange;
+    border: 0;
+   padding: 18px 35px; 
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+}
